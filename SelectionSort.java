@@ -32,7 +32,7 @@ public class SelectionSort {
 		int n = arr.length;
 		int temp,element;
 		
-		for(int i=0;i<n;i++)
+		for(int i=0;i<n-1;i++)
 		{
 			temp = arr[i];
 			for(int j=i+1;j<n;j++)
